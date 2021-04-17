@@ -1,0 +1,23 @@
+.table-outer {
+  margin-top: 10px;
+}
+
+.table-title {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.9;
+  color: #14b3fb;
+}
+
+.distric-table {
+  max-width: 100%;
+  overflow: auto;
+}
+
+.distric-table thead {
+  color: #d2d2d2;
+}
+
+.distric-table tbody {
+  color: #97a3ad;
+}

@@ -1,0 +1,18 @@
+.footer-outer {
+  background: #1e2b35;
+  margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 15px 10px;
+  font-size: 14px;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.footer span {
+  cursor: pointer;
+}

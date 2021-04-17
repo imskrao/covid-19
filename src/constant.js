@@ -1,0 +1,1 @@
+export const base_api = 'https://api.covid19india.org'

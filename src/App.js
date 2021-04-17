@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { base_api } from './constant'
+import LatestUpdate from './components/latest-update/LatestUpdate';
+import Navigation from './components/navigation/Navigation';
+import React from 'react';
+import StateDistrict from './components/state-district/StateDistrict';
+import Footer from './components/footer/Footer';
+import Credit from './components/credit/Credit';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Navigation />
+      <div className="App container">
+        <Credit />
+        <LatestUpdate baseAPI={base_api} />
+        <StateDistrict />
+      </div>
+      <Footer />
+    </React.Fragment>
   );
 }
 
